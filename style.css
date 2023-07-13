@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 50px;
+    background-image: url("https://archive.org/download/cool-animated-gif-33/cool-animated-gif-33.gif");
+  
+}
+h1{
+    color:gold;
+    background-color: red;
+    border-radius: 15%;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url("https://thumbs.gfycat.com/RegalAssuredGossamerwingedbutterfly-size_restricted.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(18, 151, 107);
+}
+.scoreboard{
+    font-size: 50px;
+}
+.UserScore,.compScore,.scoreboard span{
+display: inline-block;
+padding: 0px 10px;
+}
+.scoreboard span{
+   font-size: 60px;
+}
+.result{
+    font-size: 50px;
+    margin:40px 0px;
+}
+.choices{
+    margin: 20px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+padding: 30px;
+margin: 0px 40px;
+border-radius: 50%;
+}
+.choice:hover{
+background-color: black;
+border:10px dotted yellow
+}
